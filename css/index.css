@@ -1,0 +1,149 @@
+.searchbar{
+    margin: 2.5% !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.searchbar input[type=text]{
+    font-size: 17px !important;
+    text-align: left !important;
+    width: 30% !important;
+    border: 1px solid #ccc !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root{
+    --main-color:#d3ad7f !important;
+    --black:#13131a !important;
+    --bg:#010103 !important;
+    --border:.1rem solid rgba(255,255,255,.3) !important;
+}
+
+*{
+    font-family: 'Roboto', sans-serif !important;
+    margin:0; padding:0 !important;
+    box-sizing: border-box !important;
+    outline: none; border:none !important;
+    text-decoration: none !important;
+    text-transform: capitalize !important;
+    transition: .2s linear !important;
+} */
+
+html{
+    font-size: 62.5% !important;
+    overflow-x: hidden !important;
+    scroll-padding-top: 9rem !important;
+    scroll-behavior: smooth !important;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem !important;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent !important;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #fff !important;
+    border-radius: 5rem !important;
+}
+
+body{
+    background: var(--bg) !important;
+}
+
+.heading{
+  text-align: center !important;
+  color:#fff !important;
+  text-transform: uppercase !important;
+  padding-bottom: 3.5rem !important;
+  font-size: 4rem !important;
+}
+
+.heading span{
+  color:var(--main-color) !important;
+  text-transform: uppercase !important;
+}
+
+/* .products{
+  background-color: red;
+} */
+
+.box-container{
+
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  gap:1.5rem !important;
+}
+
+.box{
+    text-align: center !important;
+    border:var(--border) !important;
+    padding: 2rem !important;
+}
+
+.products .box-container .box .icons a{
+    height: 5rem !important;
+    width: 5rem !important;
+    line-height: 5rem !important;
+    font-size: 2rem !important;
+    border:var(--border) !important;
+    color:#fff !important;
+    margin:.3rem !important;
+}
+
+.products .box-container .box .icons a:hover{
+    background:var(--main-color);
+}
+
+.products .box-container .box .image{
+    padding: 2.5rem 0;
+}
+
+.products .box-container .box .image img{
+    height: 25rem;
+}
+
+.products .box-container .box .content h3{
+    color:#fff !important;
+    font-size: 2.5rem !important;
+}
+
+.products .box-container .box .content .stars{
+    padding: 1.5rem;
+}
+
+.products .box-container .box .content .stars i{
+    font-size: 1.7rem;
+    color: var(--main-color) !important;
+}
+
+.products .box-container .box .content .price{
+    color:#fff !important;
+    font-size: 2.5rem !important;
+}
+
+
+@media (max-width:991px){
+
+    html{
+        font-size: 55% !important;
+    }
+
+    section{
+        padding:2rem !important;
+    }
+
+}
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50% !important;
+    }
+
+}
