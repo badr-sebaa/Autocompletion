@@ -31,8 +31,12 @@ function viewSearchResult(data) {
         
         div.innerHTML = `
                             <div class="box">
+								<div class="icons">
+                					<a href="description.php?id_manga=`+ data[i].id +`" class="fas fa-eye"></a>
+            					</div>
+
                                 <div class="image">
-                                    <img src="`+ data[i].main_picturemedium + `" alt="">
+                                   <img src="`+ data[i].main_picturemedium +`"alt="">
                                 </div>
 
                                 <div class="content">
